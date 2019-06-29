@@ -216,9 +216,16 @@ npm install favicons-webpack-plugin --save-dev
 "start": "react-scripts start",
 
 Clase 02
-Vamos a dividir nuestro proyecto por ramas: develop para trabajar nuestra aplicación y master para conectar nuestro repositorio con el servidor de producción.
+Vamos a dividir nuestro proyecto por ramas: develop para trabajar
+nuestra aplicación y master para conectar nuestro repositorio con el
+servidor de producción.
 
-Travis CI es un servicio que nos ayuda a crear un script para hacer deploy de nuestro repositorio a un servidor en la nube, vamos a generar un nuevo commit en la rama master cada vez que nuestros cambios en la rama develop pasen las pruebas con la configuración de Travis en el archivo .travis.yml.
+Travis CI es un servicio que nos ayuda a crear un script para hacer
+deploy de nuestro repositorio a un servidor en la nube, vamos a 
+generar un nuevo commit en la rama master cada vez que nuestros 
+cambios en la rama develop pasen las pruebas con la configuración 
+de Travis en el archivo .travis.yml.
 
 Más información sobre Travis CI: https://travis-ci.org
 Más información sobre Github Pages: https://pages.github.com
+

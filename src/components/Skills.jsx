@@ -30,7 +30,7 @@ const SkillsSpan = styled.span`
     height: 100%;
     width: ${props => props.width};
     border-radius: 8px;
-    background-color: #C2185B;
+    background-color: #3d18c2fc;
     overflow: hidden;
     position: relative;
     bow-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0,0,0, 0.4);
@@ -43,7 +43,7 @@ const SkillsSpan = styled.span`
         right: 0;
         background-image: linear-gradient(-45deg, rgba(255,255,255,0.2) 25%,
         transparent 25%, transparent 50%, rgba(255,255,255,02) 50%,
-        rgba(255,255,255, 0.2) 75%, transparent 75%, transparent);
+        rgba(255,255,255, 0.2) 75%, transparent 55%, transparent);
         z-index: 1;
         background-size: 50px 50px;
         animation: ${move} 4s linear infinite;

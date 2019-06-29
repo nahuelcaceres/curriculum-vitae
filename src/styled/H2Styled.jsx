@@ -9,9 +9,10 @@ const StyledH2 = styled.h2`
     font-weight: 400;
     letter-spacing: .8px;
     margin: 1em 0 0 0;
-    color: #C2185B;
+    color: #3d18c2fc;
 `;
 
+//#C2185B   
 const H2Styled = ({ name }) => <StyledH2>{name}</StyledH2>;
 
 export default H2Styled;
