@@ -31,7 +31,7 @@ const App = () => {
             <GlobalStyle />
             <Sidebar>
                 <About 
-                    avatar={data.avatar}
+                    avatar={'https://media.licdn.com/dms/image/C4E03AQG63YOVtF5K2w/profile-displayphoto-shrink_200_200/0?e=1567036800&v=beta&t=IVjjQWvHzlah26WKJxbyvigfCkO5sie98MTB6n6f-H0'}
                     name={data.name}
                     profession={data.profession}
                     bio={data.bio}
