@@ -1,6 +1,8 @@
 {
   "name": "curriculum-vitae",
   "version": "0.1.0",
+  "description": "Curriculum vitae desde cero con React",
+  "main": "index.js",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
