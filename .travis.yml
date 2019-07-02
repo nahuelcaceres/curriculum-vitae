@@ -10,7 +10,7 @@ script:
   - yarn build
   - echo 'url-personaliza.com' > public/CNAME
 deploy:
-  providers: pages
+  provider: pages
   skip-cleanup: true
   keep-history: true
   github-token: $GITHUB_TOKEN
