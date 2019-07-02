@@ -3,12 +3,12 @@ cache:
   directories:
     - ~!@/.npm
 node_js:
-  - '10'
+  - '9'
 git:
   depth: 3
 script:
   - yarn build
-  - echo 'url-personalizada.com' > public/CNAME
+  - echo 'url-personaliza.com' > public/CNAME
 deploy:
   providers: pages
   skip-cleanup: true
