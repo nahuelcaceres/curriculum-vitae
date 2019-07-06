@@ -6,7 +6,7 @@ import PStyled from '../styled/PStyled';
 const Certificates = props => (
 
     <div className="Certificates">
-        <H2Styled name="Certificates"></H2Styled>
+        <H2Styled name="Certificados"></H2Styled>
         <div className="Certificates-container">
         
         {props.data.map((certificate, index) => (

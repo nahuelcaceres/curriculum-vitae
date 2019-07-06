@@ -22,7 +22,7 @@ const GlobalStyle = createGlobalStyle`
 const App = () => {
     //Traemos la informacion con el hook
     const data = useGetData(); //Ejecutando primero
-    console.log(data);
+    //console.log(data);
 
     //if data.length no tiene nada, mostrar cargando..caso contrario
     //si hacer el return de toda nuestra estructura
@@ -41,12 +41,12 @@ const App = () => {
             </Sidebar>
             
             <Info>
-                <Education 
-                    data={data.education}
-                />
                 <Experience 
                     data={data.experience}
                 />
+                {/* <Education 
+                    data={data.education}
+                /> */}
                 <Certificates 
                     data={data.certificate}
                 />

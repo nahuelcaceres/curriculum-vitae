@@ -55,14 +55,14 @@ const SkillsSpan = styled.span`
 const Skills = props => (
 
     <div className="Skills">
-        <H2Styled name="Skills"></H2Styled>
+        <H2Styled name="Aptitudes"></H2Styled>
         <SkillsContainer>
             {props.data.map((skill, index) => (
                 <div className="Skills-item" key={`Skills-${index}`}>
                     <SkillsH5>{skill.name}</SkillsH5>
-                    <SkillsLine>
+                    {/* <SkillsLine>
                         <SkillsSpan width={skill.percentage}></SkillsSpan>
-                    </SkillsLine>
+                    </SkillsLine> */}
                 </div>
             ))}
         </SkillsContainer> 
