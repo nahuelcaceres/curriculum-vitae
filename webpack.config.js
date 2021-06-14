@@ -26,6 +26,9 @@ module.exports = {
             }
         ]
     },
+    performance: {
+        hints: false
+    },
 
     plugins: [
         new HtmlWebPackPlugin({
