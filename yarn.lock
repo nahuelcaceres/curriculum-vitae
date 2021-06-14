@@ -4961,7 +4961,7 @@
   optionalDependencies:
     "html-webpack-plugin" ">=5.0.0"
 
-"favicons@>= 6.2.0":
+"favicons@^6.2.2", "favicons@>= 6.2.0":
   "integrity" "sha512-qhvFqbhlXA/JYIDYuxTrE4uT9rcpTCrWvF3UG0GxBoLl/XgFBBTrZkQvASrkMebSwDCJ9kKGypRWIbvoRZLBsw=="
   "resolved" "https://registry.npmjs.org/favicons/-/favicons-6.2.2.tgz"
   "version" "6.2.2"
@@ -7072,11 +7072,11 @@
     "minimist" "^1.2.0"
 
 "json5@^2.1.0":
-  "integrity" "sha512-8Mh9h6xViijj36g7Dxi+Y4S6hNGV96vcJZr/SrlHh1LR/pEn/8j/+qIBbs44YKl69Lrfctp4QD+AdWLTMqEZAQ=="
-  "resolved" "https://registry.npmjs.org/json5/-/json5-2.1.0.tgz"
-  "version" "2.1.0"
+  "integrity" "sha512-f+8cldu7X/y7RAJurMEJmdoKXGB/X550w2Nr3tTbezL6RwEE/iMcm+tZnXeoZtKuOq6ft8+CqzEkrIgx1fPoQA=="
+  "resolved" "https://registry.npmjs.org/json5/-/json5-2.2.0.tgz"
+  "version" "2.2.0"
   dependencies:
-    "minimist" "^1.2.0"
+    "minimist" "^1.2.5"
 
 "jsonfile@^2.1.0":
   "integrity" "sha1-NzaitCi4e72gzIO1P6PWM6NcKug="
