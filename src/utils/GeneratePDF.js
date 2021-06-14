@@ -4,7 +4,7 @@ const generatePDF = () => {
 	let pdfConfig = {};
 
 	if (isMobile()) {
-		pdfConfig = { orientation: "p", unit: "pt", format: [375, 1800] };
+		pdfConfig = { orientation: "p", unit: "pt", format: [window.screen.width + 5, 1800] };
 	} else {
 		pdfConfig = { orientation: "p", unit: "pt", format: [1080, 1080] };
 	}
