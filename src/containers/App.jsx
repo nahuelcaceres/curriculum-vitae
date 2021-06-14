@@ -10,7 +10,7 @@ import Experience from '../components/Experience';
 import Certificates from '../components/Certificates';
 import Skills from '../components/Skills';
 import useGetData from '../hooks/useGetData'
-import jsPDF from 'jspdf'
+import generatePDF from '../utils/GeneratePDF';
 
 const GlobalStyle = createGlobalStyle`
     body {
@@ -25,35 +25,13 @@ const ButtonGeneratePDF = styled.button`
     color: #212121;
     border: none;
     text-decoration: none;
-    font-size: 2.2em;
+    font-size: 1.7em;
 `;
 
 const App = () => {
     //Traemos la informacion con el hook
     const data = useGetData(); //Ejecutando primero
     //console.log(data);
-
-    const generatePDF = () => {
-
-        const pdfDoc = new jsPDF("l", "pt", [1080, 1080]);
-        pdfDoc.lineHeightProportion = 2;
-        // doc.viewerPreferences({ 'FitWindow': true }, true);
-
-        document.querySelector("#btExportPDF").remove();
-        document.querySelector(".About-social").remove();
-
-        const html = document.querySelector("#app > div > div");
-        
-        pdfDoc.html(html, {
-            callback: function (pdf) {
-                pdf.save("Nahuel_Caceres.pdf");
-
-                window.location.reload();
-            },
-            margin: [25,25,25,25]
-        })
-
-    }
 
     //if data.length no tiene nada, mostrar cargando..caso contrario
     //si hacer el return de toda nuestra estructura
